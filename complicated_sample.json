@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": 101,
+      "name": "Alpha",
+      "status": "active",
+      "members": [
+        {
+          "name": "Alice",
+          "role": "manager",
+          "hours": 120
+        },
+        {
+          "name": "Bob",
+          "role": "developer",
+          "hours": 150
+        }
+      ],
+      "budget": {
+        "initial": 100000,
+        "used": 45000
+      }
+    },
+    {
+      "id": 102,
+      "name": "Beta",
+      "status": "completed",
+      "members": [
+        {
+          "name": "Carol",
+          "role": "developer",
+          "hours": 200
+        },
+        {
+          "name": "Dave",
+          "role": "designer",
+          "hours": 100
+        }
+      ],
+      "budget": {
+        "initial": 80000,
+        "used": 80000
+      }
+    }
+  ],
+  "company": {
+    "name": "DevSolutions",
+    "founded": 2015,
+    "departments": [
+      "Engineering",
+      "Design",
+      "QA"
+    ]
+  }
+}
